@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="vewport" content="with=device-width, initial-scale=1.0">
+        <title>SangamOne Courses</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.jpg"</a>
+                <div class="nav-links" id="navLink">
+                    <i class="fas fa-window-close" onclick="hideMenu()"></i>                   
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+<div class="text-box">
+    <h1>No 1 Internship Company</h1>
+    <p>SangamOne Connected service. It is No 1 internship company in karnataka.It provides the 100% grante jobs.</p>
+         <a href="" class="hero-btn">Visit Us To Konw More</a>
+</div>
+</section>
+<!--------Course------->
+
+
+<section class="course">
+    <h1>Courses We offer</h1>
+    <p>Couser depends upon the "Student"</p>
+    
+    <div class="course-col">
+        <h3>Web developer</h3>
+        <p>HTML,CSS,Javascript,MySql</p>
+    </div>
+    <div class="course-col">
+        <h3>Flutter App Developer</h3>
+        <p>Flutter</p>
+    </div>
+    <div class="course-col">
+        <h3>Full Stock Developer</h3>
+        <p>HTML, CSS, Python, Mysql, Java, Javascript</p>
+    </div>
+
+</section>
+
+<!------campus---->
+<section>
+    <h1>Global Company</h1>
+    <p>Sangamone connected Service pvt ltd</p>
+</section>
+
+
+
+
+
+<!--------------JavaScript for toggle Menu----->
+<script>
+    var navLink = document.getElementById("navLink");
+    function showMenu(){
+         navLink.style.right="0";
+    }
+    function hideMenu(){
+         navLink.style.right="-200px";
+    }
+</script>
+    </body>
+</html>
